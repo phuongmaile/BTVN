@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "maiphuongle"; // Đảm bảo tên CSDL 'đàm' là chính xác và tồn tại
+$dbname = "maiphuongle"; // Đảm bảo tên CSDL 'maiphuongle' là chính xác và tồn tại
 
 // Kết nối đến MySQL và chọn CSDL
 $conn = new mysqli($servername, $username, $password, $dbname);
